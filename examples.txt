@@ -1,0 +1,19 @@
+
+
+
+sudo python3 pulsing-colors.py --led-cols=64 --led-gpio-mapping=adafruit-hat --led-slowdown-gpio=4D
+
+
+sudo python3 runtext.py --led-cols=64 --led-gpio-mapping=adafruit-hat --text="Hello, world!" --led-slowdown-gpio=4
+
+
+sudo python3 runtext.py --led-cols=64 --led-gpio-mapping=adafruit-hat --text="Hello, world!" --led-slowdown-gpio=4
+
+
+
+sudo python3 simple-square.py --led-no-hardware-pulse=true -r 32 --led-cols=64 --led-slowdown-gpio=3 --led-gpio-mapping=adafruit-hat 
+
+
+sudo python3 rotating-block-generator.py --led-no-hardware-pulse=true -r 32 --led-cols=64 --led-slowdown-gpio=3 --led-gpio-mapping=adafruit-hat 
+
+
