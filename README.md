@@ -19,6 +19,6 @@ sudo make install-python PYTHON=$(which python3)
 
 ## Options for the rpi-rgb-led-matrix
 
-On never RPI you need to change the speed: gpio_slowdown=3
-Set the hat to the correct version: hardware_mapping = 'adafruit-hat'
-Disable hardware pulses if you have not disabled the sound: disable_hardware_pulsing=True
+* On never RPI you need to change the speed: gpio_slowdown=3
+* Set the hat to the correct version: hardware_mapping = 'adafruit-hat'
+* Disable hardware pulses if you have not disabled the sound: disable_hardware_pulsing=True
